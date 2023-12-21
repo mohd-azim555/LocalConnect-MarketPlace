@@ -1,3 +1,4 @@
+import { Card } from 'react-bootstrap';
 import './App.css';
 import Footer from './Components/Footer';
 import NavBar from './Components/Navigation /NavBar';
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <NavBar/>
       <h1>Local Connect Market Place</h1>
+      <Card/>
       <Footer/>
     </div>
   );
